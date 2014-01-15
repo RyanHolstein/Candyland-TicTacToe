@@ -1,0 +1,114 @@
+body {
+	background-image: url("http://precisioncrossfit.net/wp-content/uploads/2013/12/candyland.jpg");
+	background-size: 1280 709;
+/*	border-image: url(http://s23.postimg.org/du3h5c82z/Screen_Shot_2014_01_14_at_12_37_36_PM.png) 27 27 27 27 round round;
+	border-width: 20px;*/
+}	
+
+
+
+
+.gameboard {
+	width: 340px
+	height: 340px;
+	float: left;
+	z-index: 1;
+	margin-top:  150px;
+	margin-left: auto;
+}
+
+.wrapper {
+	width: 340px;
+	margin: 0 auto;
+	height: 340px;
+}
+
+
+
+.cell {
+	width: 100px;
+	height: 100px
+	float: left;
+	font-size: 12px
+
+}
+
+
+.row1 {
+	clear: both
+	width: 330px;
+	height: 102px;
+
+}
+
+
+#cell1,#cell2,#cell4,#cell5 {
+	border-bottom: 8px solid black;
+	border-right: 8px solid black;
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 15px;
+
+
+
+}
+
+
+#cell3,#cell6 {
+	border-bottom: 8px solid black;
+	margin: 0 auto;
+	font-size: 10px solid black;
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 15px;
+
+}
+	
+
+
+#cell7 {
+	border-right: 8px solid black;
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 15px;
+
+
+}
+
+#cell8 {
+	/**/
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-right: 8px solid;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 15px;
+
+}
+
+
+#cell9 {
+	
+	margin: 0 auto;
+	/*float: left;*/
+	width: 100px;
+	height: 100px;
+	margin-left: 202px;
+	font-size: 100px;
+	text-align: center;
+	border-radius: 15px;
+
+}
+
+
+
